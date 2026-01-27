@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class MultiplesBelow100For {
     public static void main(String[] args) {
-        // Find all multiples of input number below 100 using for loop backward
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         if (number <= 0 || number >= 100) {

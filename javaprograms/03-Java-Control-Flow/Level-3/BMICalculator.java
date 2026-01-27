@@ -2,18 +2,17 @@
 import java.util.Scanner;
 class BMICalculator {
     public static void main(String[] args) {
-        // Calculate BMI and show weight status
         Scanner input = new Scanner(System.in);
-        double weightKg = input.nextDouble(); // weight in kg
-        double heightCm = input.nextDouble(); // height in cm
-        double heightM = heightCm / 100.0; // convert to meters
+        double weightKg = input.nextDouble();
+        double heightCm = input.nextDouble();
+        double heightM = heightCm / 100.0;
         double bmi = weightKg / (heightM * heightM);
-        String status = "";
+        String status;
         if (bmi < 18.5) {
             status = "Underweight";
-        } else if (bmi < 25.0) {
-            status = "Normal weight";
-        } else if (bmi < 30.0) {
+        } else if (bmi < 25) {
+            status = "Normal";
+        } else if (bmi < 30) {
             status = "Overweight";
         } else {
             status = "Obese";

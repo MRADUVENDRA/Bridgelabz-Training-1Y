@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class FactorsFor {
     public static void main(String[] args) {
-        // Print factors of a positive integer using for loop
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         if (number <= 0) {

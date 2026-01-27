@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class EmployeeBonus {
     public static void main(String[] args) {
-        // Calculate bonus 5% if years of service > 5
         Scanner input = new Scanner(System.in);
         double salary = input.nextDouble();
         int years = input.nextInt();

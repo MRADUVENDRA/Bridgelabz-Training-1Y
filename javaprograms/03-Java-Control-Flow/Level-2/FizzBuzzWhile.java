@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class FizzBuzzWhile {
     public static void main(String[] args) {
-        // FizzBuzz using while loop
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         if (n <= 0) {
@@ -21,7 +20,7 @@ class FizzBuzzWhile {
             } else {
                 System.out.println(i);
             }
-            i = i + 1;
+            i++;
         }
         input.close();
     }

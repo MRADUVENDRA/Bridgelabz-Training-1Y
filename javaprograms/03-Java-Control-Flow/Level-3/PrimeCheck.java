@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class PrimeCheck {
     public static void main(String[] args) {
-        // Check if a number is prime
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         boolean isPrime = true;

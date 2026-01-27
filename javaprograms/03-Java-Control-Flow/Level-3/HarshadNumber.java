@@ -2,14 +2,13 @@
 import java.util.Scanner;
 class HarshadNumber {
     public static void main(String[] args) {
-        // Check Harshad (Niven) number divisibility by sum of digits
         Scanner input = new Scanner(System.in);
         int original = input.nextInt();
         int number = original;
         int sum = 0;
         while (number != 0) {
             sum += number % 10;
-            number = number / 10;
+            number /= 10;
         }
         if (sum != 0 && original % sum == 0) {
             System.out.println(original + " is a Harshad Number");

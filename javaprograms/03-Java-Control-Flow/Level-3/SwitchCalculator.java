@@ -2,24 +2,19 @@
 import java.util.Scanner;
 class SwitchCalculator {
     public static void main(String[] args) {
-        // Simple calculator using switch-case with operator as string
         Scanner input = new Scanner(System.in);
         double first = input.nextDouble();
         double second = input.nextDouble();
         String op = input.next();
-        double result;
         switch (op) {
             case "+":
-                result = first + second;
-                System.out.println(result);
+                System.out.println(first + second);
                 break;
             case "-":
-                result = first - second;
-                System.out.println(result);
+                System.out.println(first - second);
                 break;
             case "*":
-                result = first * second;
-                System.out.println(result);
+                System.out.println(first * second);
                 break;
             case "/":
                 if (second == 0) {

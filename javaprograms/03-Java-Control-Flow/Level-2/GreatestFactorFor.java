@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class GreatestFactorFor {
     public static void main(String[] args) {
-        // Find greatest factor other than the number itself using for loop
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         int greatest = 1;

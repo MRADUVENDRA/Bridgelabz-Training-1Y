@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class LeapYearSingleIf {
     public static void main(String[] args) {
-        // Read year and use single if with logical && and ||
         Scanner input = new Scanner(System.in);
         int year = input.nextInt();
         if (year >= 1582 && ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)) {

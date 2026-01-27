@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class GreatestFactorWhile {
     public static void main(String[] args) {
-        // Find greatest factor using while loop
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         int greatest = 1;
@@ -12,7 +11,7 @@ class GreatestFactorWhile {
                 greatest = i;
                 break;
             }
-            i = i - 1;
+            i--;
         }
         System.out.println("Greatest factor beside itself = " + greatest);
         input.close();

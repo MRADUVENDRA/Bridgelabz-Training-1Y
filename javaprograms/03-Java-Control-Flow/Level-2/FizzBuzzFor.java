@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class FizzBuzzFor {
     public static void main(String[] args) {
-        // FizzBuzz using for loop
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         if (n <= 0) {

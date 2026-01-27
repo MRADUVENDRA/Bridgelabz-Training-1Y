@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class FactorsWhile {
     public static void main(String[] args) {
-        // Print factors using while loop
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         if (number <= 0) {
@@ -15,7 +14,7 @@ class FactorsWhile {
             if (number % i == 0) {
                 System.out.println(i);
             }
-            i = i + 1;
+            i++;
         }
         input.close();
     }

@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class AbundantNumber {
     public static void main(String[] args) {
-        // Check if number is abundant
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         if (number <= 0) {

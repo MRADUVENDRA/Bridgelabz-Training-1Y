@@ -2,7 +2,6 @@
 import java.util.Scanner;
 class MultiplesBelow100While {
     public static void main(String[] args) {
-        // Find multiples below 100 using while loop
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         if (number <= 0 || number >= 100) {
@@ -15,7 +14,7 @@ class MultiplesBelow100While {
             if (i % number == 0) {
                 System.out.println(i);
             }
-            i = i - 1;
+            i--;
         }
         input.close();
     }
