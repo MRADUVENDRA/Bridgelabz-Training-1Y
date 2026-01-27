@@ -1,0 +1,18 @@
+
+import java.util.Scanner;
+class PositiveNegativeZero {
+    public static void main(String[] args) {
+        // Read integer from user
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        // Check sign of number
+        if (number > 0) {
+            System.out.println("positive");
+        } else if (number < 0) {
+            System.out.println("negative");
+        } else {
+            System.out.println("zero");
+        }
+        input.close();
+    }
+}
