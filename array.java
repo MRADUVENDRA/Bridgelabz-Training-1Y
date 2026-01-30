@@ -1,0 +1,11 @@
+public class StringArray {
+    public static void main(String[] args) {
+
+        String[] names = {"Ram", "Shyam", "Mohan", "Sita"};
+
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
+
+    }
+}
